@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+	list-style: none;
+}
+img {
+	object-fit: cover;
+	display: block;
+	border: none;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+.clear {
+	clear: both;
+}
+button {
+	outline: none !important;
+	border: none;
+	cursor: pointer;
+}
+.centered{
+	width: 1170px;
+	margin: 0 auto;
+}
+.row{
+	padding: 0;
+	margin: 0;
+}
+/*头部*/
+header{
+	width: 100%;
+}
+header .htop{
+	width: 100%;
+	height: 50px;
+	background-color: #f9f9f9;
+}
+header .htop p{
+	font-size: 14px;
+	line-height: 50px;
+	color: #5e5e5e;
+	float: left;
+}
+header .htop .login{
+	font-size: 14px;
+	line-height: 50px;
+	color: #5e5e5e;
+	float: left;
+	margin-left: 0;
+}
+header .htop .loginIcon{
+	display: block;
+	float: left;
+	margin: 17px 10px 0 10px;
+}
+header .htop a{
+	color: #1162f6;
+	font-size: 14px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+header .right{
+	float: right;
+}
+header .htop .left{
+	float: left;
+}
+header .right img{
+	margin: 17px 10px 0 10px;
+	display: block;
+	float: left;
+}
+header .right p{
+	float: left;
+	cursor: pointer;
+}
+header .right span{
+	display: block;
+	float: left;
+	margin: 0 20px;
+	line-height: 45px;
+}
+header .navbar {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+}
+header .navbar .nav-link {
+	font-size: 18px;
+}
+header .navbar .nav-item {
+	height: 67px;
+	line-height: 67px;
+	margin-left: 100px;
+	text-align: center;
+}
+header .navbar .nav-item a{
+	padding: 0 !important;
+}
+header .navbar-toggler-icon img{
+	display: block;
+	width: 40px;
+    margin-top: -2px;
+}
+/*轮播*/
+.banner img{
+	display: block;
+	width: 100%;
+	height: 436px;
+}
+/*首页关于我们*/
+.title{
+	display: block;
+	margin: 45px auto;
+	cursor: pointer;
+}
+.aboutUs{
+	padding-bottom: 60px;
+}
+.aboutUs h1{
+	font-size: 20px;
+	color: #333333;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.aboutUs p{
+	font-size: 14px;
+	color: #333333;
+	line-height: 26px;
+}
+.aboutUs .right{
+	padding-left: 60px;
+}
+.aboutUs .left img{
+	display: block;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+/*首页新闻中心*/
+.newsCenter{
+	width: 100%;
+	height: auto;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.newsCenter section{
+	width: 100%;
+	height: 250px;
+	background: url(../img/largestuwi2zob85a.png) no-repeat;
+	position: relative;
+}
+.newsCenter section .right{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	width: 700px;
+	height: 200px;
+	background-color: #FFFFFF;
+	padding:27px 46px;
+	color: #333333;
+}
+.newsCenter section .right h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.newsCenter section .right h1{
+	width: 100%;
+	font-size: 24px;
+	opacity: .85;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #333333;
+}
+.newsCenter section .right p{
+	font-size: 14px;
+	opacity: .5;
+	margin-top: 17px;
+}
+.newsCenter section .right span{
+	display: block;
+	background-color: #f1f1f1;
+	width: 136px;
+    height: 40px;
+    line-height: 40px;
+	position: absolute;
+	border: 0;
+	right: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	opacity: .8;
+}
+.newsCenter section .right span img{
+	display: block;
+	margin: 0 auto;
+	width: 22px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 17px;
+}
+.newsCenter section .right b{
+	font-size: 16px;
+}
+
+
+/**/
+@media (max-width: 1170px) {
+	.centered{
+		width: 100%;
+	}
+	header .htop .right{
+		display: none;
+	}
+	header .htop .left{
+		padding-left: 15px;
+	}
+	header .navbar{
+		width: 100%;
+		padding: 0 10px;
+	}
+	header .navbar .nav-link {
+		font-size: 16px;
+	}
+	header .navbar .nav-item {
+		width: 50%;
+		text-align: center;
+		float: left;
+		margin-left: 0;
+		height: 50px;
+		line-height: 50px;
+	}
+	header .navbar-nav {
+		display: inherit;
+	}
+	.banner img{
+		height: 200px;
+		object-fit: cover;
+	}
+	.aboutUs .right{
+		padding-left: 15px;
+	}
+	.title{
+		width: 160px;
+	}
+	.newsCenter .title{
+		width: 260px;
+	}
+	.aboutUs h1{
+		margin: 25px 0;
+	}
+	.aboutUs .left img{
+		height: 260px;
+	}
+	.newsCenter section{
+		background-size: 100% 100%;
+	}
+	.newsCenter section .right{
+		width: 90%;
+		margin-left: 5%;
+		padding: 15px;
+	}
+	.newsCenter section .right h2{
+		font-size: 14px;
+	}
+	.newsCenter section .right h1{
+		font-size: 16px;
+	}
+	.newsCenter section .right span{
+		background-color: inherit;
+		bottom: 0px;
+	}
+}
