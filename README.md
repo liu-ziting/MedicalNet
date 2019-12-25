@@ -25,7 +25,6 @@
 - contactus.html（联系我们）
 - details.html（文章详情）
 - footer.html（公共底部）
-- introduce.html（拳馆介绍）
 - news.html（新闻动态）
 
 ```		
