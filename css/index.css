@@ -127,8 +127,15 @@ header .navbar-toggler-icon img{
 /*轮播*/
 .banner img{
 	display: block;
+	object-fit: inherit;
 	width: 100%;
 	height: 436px;
+}
+.minbanner img{
+	display: block;
+	object-fit: inherit;
+	width: 100%;
+	height: 200px;
 }
 /*首页关于我们*/
 .title{
@@ -225,8 +232,351 @@ header .navbar-toggler-icon img{
 .newsCenter section .right b{
 	font-size: 16px;
 }
+.newsCenter .newsList{
+	margin-top: 35px;
+}
+.newsCenter .newsList li{
+	width: 100%;
+	padding: 33px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+}
+.newsCenter .newsList li:hover{
+	cursor: pointer;
+	box-shadow:0px 0px 7px 0px #C6C8CA ;
+	-webkit-box-shadow:0px 0px 7px 0px #C6C8CA ;
+	-moz-box-shadow:0px 0px 7px 0px #C6C8CA ;
+	border-right: 14px solid #16cef4;
+	transition: all 0.5s;
+}
+.newsCenter .newsList li time{
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+.newsCenter .newsList li time p:first-child{
+	font-size:45px;
+	color: #535353;
+	height: 50px;
+    line-height: 50px;
+}
+.newsCenter .newsList li time p:last-child{
+	font-size:22px;
+	color: #333333;
+}
+.newsCenter .newsList li h1{
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.newsCenter .newsList li p{
+	font-size: 12px;
+	color: #333333;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.newsCenter .more{
+	width: 180px;
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	background-color: #1668d8;
+	color: #FFFFFF;
+	font-size: 18px;
+	display: block;
+	margin: 30px auto;
+}
+.map .my-map{
+	position: relative;
+}
+.map .my-map #mapContainer{
+	width: 100%;
+	height: 300px;
+	margin-top: 70px;
+	margin-bottom: -125px;
+}
+.map p{
+	background-color: #3e3e3e;
+	width: 100%;
+	height: 130px;
+}
+.map section{
+	width: 540px;
+	height: auto;
+	background-color: #FFFFFF;
+	right: 50px;
+	top: 60px;
+	position: absolute;
+	z-index: 99;
+	display: block;
+	padding: 34px 43px;
+	color: #616161;
+}
+.map section h1{
+	font-size: 24px;
+}
+.map section h2{
+	font-size: 14px;
+	margin: 15px 0 10px 0;
+}
+.map section h3{
+	font-size: 12px;
+	opacity: 0.5;
+}
+.map section a{
+	font-size: 16px;
+	color: #ff7a0e !important;
+	margin-top: 5px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.map section span{
+	position: absolute;
+	width: 48px;
+	height: 52px;
+	background-color: #ffd44d;
+	display: block;
+	top: 30px;
+    left: -24px;
+    line-height: 52px;
+    text-align: center;
+    color: #333333;
+    font-size: 21px;
+}
+footer{
+	width: 100%;
+	background-color: #4c4c4c;
+	padding-bottom: 28px;
+}
+footer .footerTop{
+	background-color: #3e3e3e;
+	width: 100%;
+}
+footer ul {
+	width: 628px;
+	height: 40px;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+footer ul li{
+	float: left;
+	padding: 0 50px;
+	margin-top: 10px;
+    line-height: 17px;
+	border-right:1px solid #FFFFFF
+}
+footer ul li:last-child{
+	border: none;
+}
+footer section{
+	width: 717px;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+footer section p{
+	font-size: 14px;
+	width: 595px;
+    margin: 26px auto ;
+}
+footer section p a{
+	padding: 0 20px;
+	color: #FFFFFF !important;
+}
+footer section span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #a2a2a2;
+	margin-top: 5px;
+}
+/*关于我们页面*/
 
+.abmain h1{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #d4d4d4;
+}
+.abmain h1 span{
+	font-size: 18px;
+	color: #1668d8;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+.abmain h1 ul{
+	float: right;
+}
+.abmain h1 ul li{
+	float: left;
+	font-size: 12px;
+	color: #222222;
+	margin: 0 2px;
+}
+.content{
+	font-size: 14px;
+	line-height: 27px;
+	color: #222222;
+	padding-top: 30px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.content h1{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 25px;
+	border: none;
+}
+.content img{
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+}
+.abmain .newsBox{
+	margin-top: 35px;
+	padding-bottom: 40px;
+}
+.abmain .newsBox li{
+	width: 100%;
+	height: 180px;
+	position: relative;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
 
+.abmain .newsBox li img{
+	display: block;
+	float: left;
+	width: 260px;
+	height: 180px;
+	object-fit: cover;
+	margin-right: 35px;
+}
+.abmain .newsBox li h2{
+	font-size: 18px;
+	color: #1e1e1e;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.abmain .newsBox li:hover h2{
+	color: #2f78dc;
+}
+.abmain .newsBox li p{
+	font-size: 12px;
+	color: #6d6d6d;
+	opacity: .8;
+	line-height: 22px;
+}
+.abmain .newsBox time{
+	width: 74%;
+	position: absolute;
+	bottom: 0;
+}
+.abmain .newsBox time span{
+	display: block;
+	float: left;
+	background-color: #c9c9c9;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 2px 8px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.abmain .newsBox time p{
+	font-size: 14px;
+	color: #6d6d6d;
+	float: right;
+}
+.contactus{
+	width: 100%;
+	padding-bottom: 370px;
+}
+.contactus .my-map{
+	position: relative;
+}
+.contactus .my-map #mapContainer{
+	width: 100%;
+	height: 450px;
+	margin-top: 30px;
+
+}
+.contactus section {
+	width: 650px;
+	height: 173px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 230px;
+	left: 256px;
+	border-left:2px solid #75a0c9 ;
+	padding: 32px;
+}
+.contactus section ul li{
+	font-size: 14px;
+	color: #222222;
+	margin-bottom: 24px;
+}
+.contactus section ul li span{
+	margin-right: 28px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+}
+.contactus h2{
+	font-size: 24px;
+	color: #222222;
+	margin: 40px 0;
+	width: 100%;
+	text-align: center;
+	background: url(../img/line.png) no-repeat center;
+	background-position-y: 40px;
+	padding-bottom: 26px;
+}
+.contactus textarea{
+	width: 100%;
+	height: 148px;
+	padding: 10px 15px;
+	border: 1px solid #d3d3d3;
+}
+.contactus label{
+	padding: 0;
+}
+.contactus label:nth-child(2) input{
+	width: 97%;
+}
+.contactus label:nth-child(3) input{
+	width: 97%;
+	float: right;
+}
+.contactus label:nth-child(4) input{
+	width: 97%;
+}
+.contactus label:nth-child(5) input{
+	width: 97%;
+	float: right;
+}
+.contactus input{
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	padding: 10px 15px;
+	margin-top: 20px;
+}
+.contactus button{
+	width: 150px;
+	height: 40px;
+	background-color: #1668d8;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 20px;
+}
 /**/
 @media (max-width: 1170px) {
 	.centered{
@@ -260,6 +610,10 @@ header .navbar-toggler-icon img{
 		height: 200px;
 		object-fit: cover;
 	}
+	.minbanner img{
+		height: 110px;
+		object-fit: inherit;
+	}
 	.aboutUs .right{
 		padding-left: 15px;
 	}
@@ -274,6 +628,9 @@ header .navbar-toggler-icon img{
 	}
 	.aboutUs .left img{
 		height: 260px;
+	}
+	.aboutUs section div:first-child{
+		display: none;
 	}
 	.newsCenter section{
 		background-size: 100% 100%;
@@ -293,4 +650,81 @@ header .navbar-toggler-icon img{
 		background-color: inherit;
 		bottom: 0px;
 	}
+	footer ul li{
+		width: 24.5%;
+		font-size: 12px;
+		text-align: center;
+		padding: 0;
+	}
+	footer ul{
+		width: 100%;
+	}
+	footer section{
+		width: 100%;
+	}
+	footer section p{
+		width: 294px;
+	}
+	.map .my-map #mapContainer{
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 194px;
+	}
+	.map section{
+		width: 100%;
+		right: 0;
+		top: inherit;
+		bottom: -194px;
+	}
+	.map section span{
+		display: none;
+	}
+	.map p{
+		display: none;
+	}
+	.abmain .newsBox li img{
+		width: 100%;
+		float: left;
+		margin-bottom: 15px;
+	}
+	.abmain .newsBox li{
+		height: auto;
+		margin-bottom: 60px;
+	}
+	.abmain .newsBox time{
+		bottom: -28px;
+		width: 100%;
+	}
+	.abmain {
+		padding: 0 10px;
+	}
+	.contactus section{
+		width: 100%;
+		height: 145px;
+    top: inherit; 
+    margin-top: 21px;
+    left: inherit; 
+    padding: 15px;
+	}
+	.contactus section ul li span {
+    margin-right: 14px;
+    margin-top: 4px;
+  }
+  .contactus h2{
+  	margin-top: 210px;
+  }
+  .contactus .my-map #mapContainer{
+  	height: 250px;
+  }
+  .contactus label input{
+  	width: 100% !important;
+  }
+  .contactus button{
+  	margin: 0 auto;
+  	display: block;
+  	margin-top: 40px;
+  }
+  .contactus {
+  	padding-bottom: 100px;
+  }
 }

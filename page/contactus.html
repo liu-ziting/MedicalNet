@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+		<title>联系我们</title>
+	</head>
+
+	<body>
+		<!--网页头部-->
+		<header>
+			<nav class="navbar navbar-expand-sm">
+				<a class="navbar-brand" href="index.html">
+					<img class="logo" src="../img/logo.png" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+					<img src="../img/gd.png" />
+				</span>
+			</button>
+				<div class="collapse navbar-collapse " id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">首页</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="aboutus.html">关于我们</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="news.html">新闻中心</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!--轮播-->
+		<div class="minbanner">
+			<div id="indexbanner" class="carousel slide" data-ride="carousel">
+				<!-- 指示符 -->
+				<ul class="carousel-indicators">
+					<li data-target="#indexbanner" data-slide-to="0" class="active"></li>
+					<li data-target="#indexbanner" data-slide-to="1"></li>
+					<li data-target="#indexbanner" data-slide-to="2"></li>
+				</ul>
+				<!-- 轮播图片 -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="../img/minbanner.png">
+					</div>
+					<div class="carousel-item">
+						<img src="../img/minbanner.png">
+					</div>
+					<div class="carousel-item">
+						<img src="../img/minbanner.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体-->
+		<div class="abmain centered">
+			<h1>
+				<span>联系我们</span>
+				<ul>
+					<li><a href="index.html">首页 </a></li>
+					<li>></li>
+					<li><a href="contactus.html">联系我们</a></li>
+				</ul>
+			</h1>
+			<div class="contactus">
+				<div id="wrap" class="my-map centered">
+					<div id="mapContainer"></div>
+					<section>
+						<ul>
+							<li><span><img src="../img/icon1.png"/></span>闵行区金平路 770号二楼（陈氏太极.金平馆）  </li>
+							<li><span><img src="../img/icon2.png"/></span>18017056739（微信同步）</li>
+							<li><span><img src="../img/icon3.png"/></span>czyisou@sina.com</li>
+						</ul>
+					</section>
+				</div>
+				<h2>给我们留言</h2>
+				<form class="row">
+					<textarea placeholder="内容"></textarea>
+					<label class="col-md-6 col-12">
+						<input type="text" placeholder="姓名"/>
+					</label>
+					<label class="col-md-6 col-12">
+						<input type="text" placeholder="邮箱"/>
+					</label>
+					<label class="col-md-6 col-12">
+						<input type="text" placeholder="电话"/>
+					</label>
+					<label class="col-md-6 col-12">
+						<input type="text" placeholder="标题"/>
+					</label>
+				</form>
+				<button type="button">提交</button>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script src="//webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
+		<script type="text/javascript" src="../js/main.js"></script>
+		<script>
+			mapContactus();
+		</script>
+	</body>
+
+</html>
